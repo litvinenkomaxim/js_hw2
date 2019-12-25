@@ -1,4 +1,4 @@
-let greetingString = "";
+let greetingString;
 let username = "Ivan";
 let greeting = "";
 for (let i = 0; i < 4; i++) {

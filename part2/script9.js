@@ -1,6 +1,6 @@
 let total = 0;
 let x = 0;
-for (; ;) {
+for (;;) {
   let number = prompt("enter number", '12');
   total = total + +number;
   if (number == null) {
@@ -8,5 +8,4 @@ for (; ;) {
   }
   x++;
 }
-alert(`vvedeno ${x} chisel obshey summoy ${total} i 
-srednim arifmeticheskim ${total / x}`);
+alert(`Введено ${x} чисел общей суммой ${total} и средним арефмитическим ${total / x}`);
