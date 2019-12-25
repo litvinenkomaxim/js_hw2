@@ -1,12 +1,15 @@
-let greeting = "";
 let lang = prompt("enter lang", 'ru');
 
-switch (true) {
-  case lang == 'ru': alert('privet russkiy');
+switch (lang) {
+  case 'ru':
+    alert('privet russkiy');
     break;
-  case lang == 'en': alert('hello englishman');
+  case 'en':
+    alert('hello englishman');
     break;
-  case lang == 'de': alert('ich hello german');
+  case 'de':
+    alert('ich hello german');
     break;
-  default: alert('net nugnogo yazika');
+  default:
+    alert('net nugnogo yazika');
 }

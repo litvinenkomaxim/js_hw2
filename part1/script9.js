@@ -1,5 +1,6 @@
 let name = prompt("enter name", "Vasya");
-if ((name && true) == true) {
+if (name) {
   alert(`hello ${name}`)
+} else {
+  alert("name incorrect")
 }
-else { alert("name incorrect") }

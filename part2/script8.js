@@ -1,13 +1,4 @@
-let numberFirst = 0;
-let numberSecond = 1;
+let fibonacci = [0, 1];
 let fibo = ""
-for (; ;) {
-  let numberThird = numberFirst + numberSecond;
-  numberFirst = numberSecond;
-  numberSecond = numberThird
-  fibo = fibo + " " + numberThird;
-  if (numberFirst > 1000000000) {
-    break;
-  }
-}
+for (i = 2; i < 50; fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2], fibo = fibo + " " + fibonacci[i], i++) {}
 alert(fibo);

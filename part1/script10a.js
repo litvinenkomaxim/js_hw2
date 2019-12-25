@@ -1,4 +1,3 @@
-let greeting = "";
 let lang = prompt("enter lang", 'ru');
 
 if (lang == 'ru') {

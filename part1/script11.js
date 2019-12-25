@@ -2,30 +2,27 @@ let month = new Date();
 alert(month);
 monthName = month.getMonth();
 
-switch (true) {
-  case monthName == 0: alert('zima');
+switch (monthName) {
+  case 0:
+  case 1:
+  case 11:
+    alert('zima');
     break;
-  case monthName == 1: alert('zima');
+  case 2:
+  case 3:
+  case 4:
+    alert('vesna');
     break;
-  case monthName == 11: alert('zima');
+  case 5:
+  case 6:
+  case 7:
+    alert('leto');
     break;
-  case monthName == 2: alert('vesna');
+  case 8:
+  case 9:
+  case 10:
+    alert('osen');
     break;
-  case monthName == 3: alert('vesna');
-    break;
-  case monthName == 4: alert('vesna');
-    break;
-  case monthName == 5: alert('leto');
-    break;
-  case monthName == 6: alert('leto');
-    break;
-  case monthName == 7: alert('leto');
-    break;
-  case monthName == 8: alert('osen');
-    break;
-  case monthName == 9: alert('osen');
-    break;
-  case monthName == 10: alert('osen');
-    break;
-  default: alert('date incorrect');
+  default:
+    alert('date incorrect');
 }
